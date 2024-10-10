@@ -31,13 +31,12 @@
             ],
             "tsConfig": "tsconfig.app.json",
             "assets": [
-              {
-                "glob": "**/*",
-                "input": "public"
-              }
+              "src/favicon.ico",
+              "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "src/app/components/listas/listas.component.css"
             ],
             "scripts": [],
             "server": "src/main.server.ts",
@@ -94,11 +93,9 @@
             ],
             "tsConfig": "tsconfig.spec.json",
             "assets": [
-              {
-                "glob": "**/*",
-                "input": "public"
-              }
-            ],
+              "src/favicon.ico",
+              "src/assets"] 
+            ,
             "styles": [
               "src/styles.css"
             ],
@@ -107,5 +104,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "9250ba37-09a7-4082-93d2-3299ee3fba65"
   }
 }

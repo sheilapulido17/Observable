@@ -1,0 +1,12 @@
+<div class ="container" >
+    <h2>Completed Tasks</h2>
+<h1>Elaborado por Pulido Terrazas Sheila</h1>
+<img src="assets/images/blackwidow.jpeg" title ="blackwidow"/>
+
+<ul>
+  <li *ngFor="let task of tasks$ | async">
+    {{ task.name }}
+  </li>
+</ul>
+
+</div>
